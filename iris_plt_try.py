@@ -13,7 +13,7 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax1.set_xlabel('sepal length in cm')
 ax1.set_ylabel('sepal width in cm')
-plt.show()
+#plt.show()
 plt.savefig('sepal_length_with_sepal_length.pdf')
 
 fig2, ax2 = plt.subplots()
@@ -22,7 +22,7 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax2.set_xlabel('sepal length in cm')
 ax2.set_ylabel('petal length in cm')
-plt.show()
+#plt.show()
 plt.savefig('sepal_length_with_petal_length.pdf')
 
 fig3, ax3 = plt.subplots()
@@ -31,7 +31,7 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax3.set_xlabel('sepal length in cm')
 ax3.set_ylabel('petal width in cm')
-plt.show()
+#plt.show()
 plt.savefig('sepal_length_with_petal_width.pdf')
 
 fig4, ax4 = plt.subplots()
@@ -40,7 +40,7 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax4.set_xlabel('sepal width in cm')
 ax4.set_ylabel('petal length in cm')
-plt.show()
+#plt.show()
 plt.savefig('sepal_width_with_petal_length.pdf')
 
 fig5, ax5 = plt.subplots()
@@ -49,7 +49,7 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax5.set_xlabel('sepal width in cm')
 ax5.set_ylabel('petal width in cm')
-plt.show()
+#plt.show()
 plt.savefig('sepal_width_with_petal_width.pdf')
 
 fig6, ax6 = plt.subplots()
@@ -58,5 +58,5 @@ for t, marker, c in zip(range(3), ">ox", "rgb"):
 
 ax6.set_xlabel('petal length in cm')
 ax6.set_ylabel('petal width in cm')
-plt.show()
+#plt.show()
 plt.savefig('petal_length_with_petal_width.pdf')
